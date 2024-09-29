@@ -1,0 +1,129 @@
+#hero {
+    background-color: lightgoldenrodyellow;
+}
+
+.yeseva-one-regular {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: bold;
+  }
+
+
+  
+  .nunito> {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+h1 {
+    font-family: Yeseva One;
+    font-size: 4.5rem;
+    color: black;
+}
+
+h2 {
+    font-family: Nunito;
+    font-size: 1.5rem;
+    color: rgb(186, 167, 167);
+}
+
+.blend {
+    mix-blend-mode: multiply;
+}
+
+#mypic {
+    border-radius: 50%;
+}
+
+#aboutme {
+    background-color: #A8E6CF;
+}
+
+#interests {
+    background-color: #FFD3B6;
+}
+
+.accordion-button {
+    background-color: #FFD3B6;
+    border:  solid black;
+}
+
+.accordion-body {
+    background-color: antiquewhite;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    width: 50%;
+    margin: auto;
+}
+
+@media (max-width: 992px) {
+    .grid-container {
+        width: 100%;
+    }
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    width: 50%;
+    margin: auto;
+}
+
+@media (max-width: 992px) {
+    .grid-container2 {
+        width: 100%;
+    }
+}
+
+.magazine {
+    font-style: italic;
+}
+
+#getintouch {
+    background-color: #FFAAA5;
+}
+
+.para {
+    width: 30%;
+    margin: auto;
+    line-height: 1.75;
+    color: dimgrey;
+    font-family: Nunito;
+}
+
+@media (max-width: 991px) {
+    .para {
+        width: 100%;
+    }
+}
+
+.para2 {
+    width: 100%;
+    margin: auto;
+    line-height: 1.75;
+    color: dimgrey;
+    font-family: Nunito;
+}
+
+.body {
+    font-size: 3rem;
+    color: black;
+    font-family: Yeseva One;
+}
+
+#footer {
+    background-color: lightgoldenrodyellow;
+}
+
+.nav-item {
+    font-weight: 600;
+}
